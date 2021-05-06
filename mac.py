@@ -4,7 +4,7 @@ import time
 class Mac:
     def __init__(self):
         self.Kmax = 15
-        self.Tfr = 0.000006 # transfer time for a frame: 6us
+        self.Tfr = 0.001 # transfer time for a frame: 1ms
 
 
     def CSMACD(self):
